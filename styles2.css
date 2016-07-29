@@ -1,0 +1,64 @@
+#searchInput{
+  width: 200px;
+}
+#slide1 {
+	background: url('../../images/p09.jpg') top center no-repeat;
+  background-size: cover;
+}
+#myCarousel .item{
+  height: 400px;
+}
+@media (max-width: 768px) {
+
+	#myCarousel .item { height: 310px; }
+
+	#slide1 {
+		background: url('../../images/p09.jpg') top center no-repeat;
+    background-size: cover;
+	}
+}
+@media (min-width: 1200px) {
+	#myCarousel .item { height: 643px; }
+  .wrap{
+
+    position: fixed;
+    z-index: 9999;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+  }
+	#slide1 {
+    margin-left: 0;
+    margin-right: 0;
+		background: url('../../images/p09.jpg') top center no-repeat;
+
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+	}
+  .modal-dialog{
+
+  opacity: 0.7;
+  position: absolute;
+  margin-top: 100px;
+  margin-right: 0;
+
+  }
+ .md{
+
+   position: relative;
+ }
+ .modal-header{
+   text-align: center;
+ }
+#setbut{
+  width: 100px;
+margin-left: 80px;
+}
+
+  }
+  @media (max-width: 480px) {
+    #slide1 {
+  		background: url('../../images/p09.jpg') top center no-repeat;
+      background-size: cover;
+  }
